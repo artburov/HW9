@@ -14,7 +14,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBOutlet weak var heightLabel: NSLayoutConstraint!
+    
+    @IBOutlet weak var heihtConstraint: NSLayoutConstraint!
+    @IBOutlet weak var textLabel: UILabel!
+    
+    @IBAction func clickBtn(_ sender: UIButton) {            
+        
+        heightLabel.constant += 70
+        heihtConstraint.constant -= 50
+        view.layoutIfNeeded()
+        
+//        textLabel.isHidden = !textLabel.isHidden
+    }
 }
 
