@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -19,13 +19,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var heihtConstraint: NSLayoutConstraint!
     @IBOutlet weak var textLabel: UILabel!
     
-    @IBAction func clickBtn(_ sender: UIButton) {            
+    @IBAction func clickBtn(_ sender: UIButton) {
         
-        heightLabel.constant += 70
-        heihtConstraint.constant -= 50
-        view.layoutIfNeeded()
+        sender.isSelected = !sender.isSelected
+               
+        if !sender.isSelected {
+            heightLabel.constant -= 70
+            heihtConstraint.constant += 50
+            textLabel.isHidden = true
+            view.layoutIfNeeded()
+        }
         
-//        textLabel.isHidden = !textLabel.isHidden
+        if sender.isSelected {
+            heightLabel.constant += 70
+            heihtConstraint.constant -= 50
+            textLabel.isHidden = false
+            view.layoutIfNeeded()
+        }
     }
 }
 
