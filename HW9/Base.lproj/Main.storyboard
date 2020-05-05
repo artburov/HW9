@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16095" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lof-rI-AnF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16095" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zcj-Jl-vNH">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16084.1"/>
@@ -91,22 +91,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label text 156756678j.jk. jkljkl6hbgj7875723 555 text text text 454545" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmo-sn-pRl">
-                                <rect key="frame" x="296" y="357" width="110" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test some test test test test long test test test test test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmo-sn-pRl">
+                                <rect key="frame" x="333" y="357" width="73" height="21"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="EG5-UR-FVN"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="BMk-U9-EJF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="400" misplaced="YES" text="Label text text text text text2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSq-yB-nL9">
-                                <rect key="frame" x="8" y="358" width="219" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label text text text long long text test text" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSq-yB-nL9">
+                                <rect key="frame" x="8" y="358" width="317" height="20.333333333333314"/>
                                 <color key="backgroundColor" red="0.058299011499999998" green="1" blue="0.01099159527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" priority="900" constant="280" id="D9U-rt-9Kv"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -114,11 +111,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="E2d-ev-9UL" firstAttribute="trailing" secondItem="dmo-sn-pRl" secondAttribute="trailing" constant="8" id="1ls-dw-4hH"/>
-                            <constraint firstItem="MSq-yB-nL9" firstAttribute="top" secondItem="E2d-ev-9UL" secondAttribute="top" constant="358" id="PJZ-dT-fGV"/>
-                            <constraint firstItem="dmo-sn-pRl" firstAttribute="top" secondItem="E2d-ev-9UL" secondAttribute="top" constant="357" id="brq-NP-DbY"/>
-                            <constraint firstItem="MSq-yB-nL9" firstAttribute="leading" secondItem="E2d-ev-9UL" secondAttribute="leading" constant="8" id="n35-lw-2kb"/>
-                            <constraint firstItem="dmo-sn-pRl" firstAttribute="leading" secondItem="MSq-yB-nL9" secondAttribute="trailing" priority="900" constant="8" id="qZA-Ax-eRJ"/>
+                            <constraint firstItem="E2d-ev-9UL" firstAttribute="trailing" secondItem="dmo-sn-pRl" secondAttribute="trailing" constant="8" id="GUI-4J-wo2"/>
+                            <constraint firstItem="MSq-yB-nL9" firstAttribute="leading" secondItem="E2d-ev-9UL" secondAttribute="leading" constant="8" id="LZP-ZS-2ff"/>
+                            <constraint firstItem="dmo-sn-pRl" firstAttribute="leading" secondItem="MSq-yB-nL9" secondAttribute="trailing" priority="990" constant="8" id="XJa-0m-EDb"/>
+                            <constraint firstItem="MSq-yB-nL9" firstAttribute="top" secondItem="E2d-ev-9UL" secondAttribute="top" constant="358" id="dVq-Ja-h61"/>
+                            <constraint firstItem="dmo-sn-pRl" firstAttribute="top" secondItem="E2d-ev-9UL" secondAttribute="top" constant="357" id="pvl-MG-G0Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E2d-ev-9UL"/>
                     </view>

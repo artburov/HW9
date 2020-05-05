@@ -26,14 +26,12 @@ class ViewController: UIViewController {
         if !sender.isSelected {
             heightLabel.constant -= 70
             heihtConstraint.constant += 50
-            textLabel.isHidden = true
             view.layoutIfNeeded()
         }
         
         if sender.isSelected {
             heightLabel.constant += 70
             heihtConstraint.constant -= 50
-            textLabel.isHidden = false
             view.layoutIfNeeded()
         }
     }
